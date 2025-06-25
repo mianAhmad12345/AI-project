@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salary Predictor (Linear Regression)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>📈 Salary Predictor (Linear Regression)</h1>
+      <p>Enter your years of experience to predict salary (PKR)</p>
+
+      <input type="number" id="experience" placeholder="Years of Experience" step="0.1" />
+      <button onclick="predictSalary()">Predict</button>
+      <div id="result"></div>
+
+      <canvas id="chart" width="500" height="350"></canvas>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
